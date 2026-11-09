@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product — CakeShop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="topbar">
+    <div class="container topbar-inner">
+      <span>♡ &nbsp; Freshly baked happiness, made with love!</span>
+      <span class="top-contact">✆ &nbsp; WhatsApp orders &nbsp; · &nbsp; ✉ hello@cakeshop.com</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="CakeShop home">
+
+        <span><img src="images/Elegant Red Cake Shop Logo (1).png" alt=""
+            style="height: 60px;margin-left: -20px;width: 220px;"></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="main-nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#categories">Cakes </a>
+        <a href="#custom">Occasions </a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-icons">
+        <a href="#shop" aria-label="Search">⌕</a>
+        <a href="#contact" aria-label="Contact">♙</a>
+        <a href="#shop" aria-label="Products">♡</a>
+      </div>
+    </div>
+  </header>
+  <main class="container product-page">
+    <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="index.html#shop">Shop</a> / <span
+        id="crumb-name">Product</span></div>
+    <div class="product-detail" id="product-detail"></div>
+    <section class="more-products">
+      <div class="section-heading">
+        <h2>You May Also Like</h2><span></span>
+      </div>
+      <div class="product-grid" id="related-grid"></div>
+    </section>
+  </main>
+  <footer id="contact">
+    <div class="container copyright">© 2026 CakeShop. All Rights Reserved. <span>Made with ♡</span></div>
+  </footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Beautiful handmade cakes for every occasion. Browse the CakeShop collection and order directly on WhatsApp.">
+  <title>CakeShop — Baked with Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>♡ &nbsp; Freshly baked happiness, made with love!</span>
+      <span class="top-contact">✆ &nbsp; WhatsApp orders &nbsp; · &nbsp; ✉ hello@cakeshop.com</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="CakeShop home">
+
+        <span><img src="images/Elegant Red Cake Shop Logo (1).png" alt=""
+            style="height: 60px;margin-left: -20px;width: 220px;"></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="main-nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#categories">Cakes </a>
+        <a href="#custom">Occasions </a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-icons">
+        <a href="#shop" aria-label="Search">⌕</a>
+        <a href="#contact" aria-label="Contact">♙</a>
+        <a href="#shop" aria-label="Products">♡</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">MADE FRESH, JUST FOR YOU</p>
+
+        <h1>
+          Delicious Cakes<br>
+          for <em>Every Occasion</em>
+        </h1>
+
+        <p class="hero-copy">
+          Handcrafted with love using the finest ingredients.<br>
+          Find the perfect cake for your special moments.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#shop">SHOP NOW</a>
+          <a class="btn btn-light" href="#custom">CUSTOM CAKE</a>
+        </div>
+
+
+
+    </section>
+    <section class="features container" aria-label="Our promises">
+      <div class="feature"><span class="feature-icon">♧</span>
+        <div><b>Made Fresh</b><small>Baked fresh for you</small></div>
+      </div>
+      <div class="feature"><span class="feature-icon">♙</span>
+        <div><b>Best Quality</b><small>Carefully chosen ingredients</small></div>
+      </div>
+      <div class="feature"><span class="feature-icon">♕</span>
+        <div><b>Made with Love</b><small>A little joy in every bite</small></div>
+      </div>
+      <div class="feature"><span class="feature-icon">♡</span>
+        <div><b>Easy Ordering</b><small>Order directly on WhatsApp</small></div>
+      </div>
+    </section>
+
+    <section class="section container" id="categories">
+      <div class="section-heading">
+        <h2>Shop by Category</h2><span></span>
+      </div>
+      <div class="categories">
+        <a class="category" href="#shop" data-category="Birthday"><img src="images/braggsdiner-F8RKds2YdqA-unsplash.jpg"
+            alt="Birthday cake"><b>Birthday Cakes</b></a>
+        <a class="category" href="#shop" data-category="Wedding"><img
+            src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=500&q=85"
+            alt="Wedding cake" onerror="this.src='https://images.unsplash.com/photo-153525497懂';"><b>Wedding
+            Cakes</b></a>
+        <a class="category" href="#shop" data-category="Anniversary"><img
+            src="https://images.unsplash.com/photo-1562777717-dc6984f65a63?auto=format&fit=crop&w=500&q=85"
+            alt="Anniversary cake"><b>Anniversary Cakes</b></a>
+        <a class="category" href="#shop" data-category="Photo"><img
+            src="https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=500&q=85"
+            alt="Decorated celebration cake"><b>Photo Cakes</b></a>
+        <a class="category" href="#shop" data-category="Cupcakes"><img
+            src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=500&q=85"
+            alt="Cupcakes"><b>Cupcakes</b></a>
+      </div>
+    </section>
+
+    <section class="section products-section" id="shop">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Best Sellers</h2><span></span>
+          <p>Our customers' sweetest favourites</p>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="custom-banner" id="custom">
+      <div class="container custom-inner">
+        <div>
+          <p class="eyebrow">MADE ESPECIALLY FOR YOU</p>
+          <h2>Custom Cake for<br><em>Your Special Moments</em></h2>
+          <p>Tell us your ideas and we'll help you create something lovely!</p><a class="btn btn-light"
+            id="custom-whatsapp" href="#">ORDER A CUSTOM CAKE &nbsp; →</a>
+        </div>
+        <img src="images/jacob-thomas-6jHpcBPw7i8-unsplash.jpg" alt="Beautiful custom chocolate cake">
+      </div>
+    </section>
+
+    <section class="about-section container" id="about">
+      <div class="about-mark">♡</div>
+      <div>
+        <h2>A little sweetness goes a long way.</h2>
+        <p>At CakeShop, every cake is prepared with care, creativity and a whole lot of love. Choose your favourite,
+          tell us what you have in mind, and let's make your celebration special.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand"><span><img src="images/Elegant Red Cake Shop Logo (1).png"
+              alt="" style="height: 60px;margin-left: -20px;width: 220px;"></span>
+          <p>We bake more than cakes.<br>We bake happiness!<br>Thank you for choosing us.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#"
+              aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Twitter"><i
+                class="fa-brands fa-x-twitter"></i></a><a href="#" aria-label="TikTok"><i
+                class="fa-brands fa-tiktok"></i></a></div>
+      </div>
+      <div>
+        <h3>Quick Links</h3><a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About Us</a><a
+          href="#contact">Contact Us</a>
+      </div>
+      <div>
+        <h3>Customer Care</h3><a href="#contact">How to Order</a><a href="#contact">FAQs</a><a href="#contact">Custom
+          Orders</a><a href="#contact">Terms & Conditions</a>
+      </div>
+      <div>
+        <h3>Let's stay in touch</h3>
+        <p>Have a question or a cake idea?<br>We'd love to hear from you.</p><a class="btn btn-primary footer-button"
+          id="footer-order" href="#">CHAT ON WHATSAPP</a>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 CakeShop. All Rights Reserved. <span>Made with ♡</span></div>
+  </footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
